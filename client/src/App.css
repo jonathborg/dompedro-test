@@ -1,0 +1,30 @@
+#app form {
+    display: flex;
+    flex-direction: column;
+}
+
+#app .form-control {
+    margin: 10px;
+}
+
+#app form input {
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding: 5px 8px;
+}
+
+#app form button[type=submit] {
+    border: none;
+    padding: 8px;
+    background-color: #ccc;
+    color: #000;
+}
+
+#app table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#app table td, #app table th {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
